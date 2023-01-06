@@ -20,6 +20,17 @@
 // Similar printBill can be moved to its own class PrintBill class
 
 
+//////////////////////////////////////////////
+// Open for Extension, Closed for Modification
+//////////////////////////////////////////////
+
+// In doing so, we stop ourselves from modifying existing code and causing potential new bugs
+// Of course, the one exception to the rule is when fixing bugs in existing code.
+
+// To make a class open for extension: create a new class and use extend with old class
+// Example Giutar Class is there and now we need to extend the functionality then we can create SuperCoolGuitarWithFlames extends Guitar 
+
+
 
 ////////////////////////////////
 // Liskov Substitution Principle
